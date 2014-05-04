@@ -348,5 +348,14 @@
     <div></div>
 </div>
 <script src="shower/shower.min.js"></script>
+<script>
+    shower.on('go:before',function(id){
+        
+    });
+    shower.on('go:after',function(id){
+        console.log('after', id)
+    });
+    
+</script>
 </body>
 </html>
